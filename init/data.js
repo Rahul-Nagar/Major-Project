@@ -1,5 +1,6 @@
 
 const sampleListings = [
+<<<<<<< HEAD
   {
     title: "Cozy Beachfront Cottage",
     description:
@@ -19,6 +20,20 @@ const sampleListings = [
     image: {
       filename: "listingimage",
       url: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+=======
+    {
+        
+      title: "Cozy Beachfront Cottage",
+      description:
+        "Escape to this charming beachfront cottage for a relaxing getaway. Enjoy stunning ocean views and easy access to the beach.",
+      image: {
+        filename: "listingimage",
+        url: "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      },
+      price: 1500,
+      location: "Malibu",
+      country: "United States",
+>>>>>>> 77c6513d99cf8976d11c33d085bb1d73263b64cc
     },
     price: 1200,
     location: "New York City",
@@ -362,6 +377,7 @@ module.exports = { data: sampleListings };
 
 // const sampleListings = [
   
+<<<<<<< HEAD
 //   {
 //       title: "Cozy Beachfront Cottage",
 //       description:
@@ -714,3 +730,6 @@ module.exports = { data: sampleListings };
 //   ];
   
 //   module.exports = { data: sampleListings };
+=======
+  module.exports = { data: sampleListings };
+>>>>>>> 77c6513d99cf8976d11c33d085bb1d73263b64cc
